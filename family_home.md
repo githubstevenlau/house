@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    Start([Lonsdale Road]) --> House[Steven, Leanna, Georgia, Lydia]
+    Start([House]) --> House[Steven, Leanna, Georgia, Lydia]
     House --> Decide{BF moving in?} 
     Decide -->|No| House 
     Decide -->|Yes| HouseSH 
